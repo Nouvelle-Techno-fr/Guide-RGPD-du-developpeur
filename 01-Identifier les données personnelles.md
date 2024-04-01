@@ -44,7 +44,6 @@
 
 <details>
      <summary> <em> En savoir plus sur les techniques d'anonymisation </em> </summary>
-<br>
 
 Le [projet CabAnon](https://linc.cnil.fr/fr/cabanon-un-projet-dexploration-et-de-visualisation-de-donnees-anonymisees), développé par le Laboratoire d'Innovation Numérique de la CNIL en 2017, évalue les performances de différentes techniques d’anonymisation sur des trajets des taxis tels que rendus publics par la New-York TLC. Ce projet présente [différents scénarios d’usages](https://linc.cnil.fr/fr/cabanon-quels-usages-pour-les-donnees-anonymisees) pour lesquels les techniques d'anonymisation utilisées n’altèrent pas significativement la qualité du résultat final. Le code utilisé pour anonymiser ces données est également publié sous [licence libre](https://github.com/LINCnil/Cabanon/tree/master/Anon).
 </details>
