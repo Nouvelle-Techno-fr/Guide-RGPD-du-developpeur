@@ -29,7 +29,6 @@
 
 <details>
      <summary> <em> Les gestionnaires de mot de passe en pratique </em> </summary>
-<br>
 
 * Les gestionnaires de mots de passe permettent de **centraliser l'ensemble des identifiants et des mots de passe** dans une base de données unique. Certains d'entres permettent également de tester la robustesse des mots de passe et d'en générer automatiquement et de manière aléatoire tout en répondant aux contraintes imposées par les systèmes. Assurez-vous avant tout usage que les mots de passes conservées par le logiciel sont chiffrés et protégés par un mot de passe suffisamment robuste. 
 
