@@ -37,7 +37,6 @@
 
 <details>
      <summary> <em> Les outils de visualisation des dépendances des applications </em> </summary>
-<br>
 
 Les gestionnaires de dépendances intègrent des fonctionnalités de suivi et d'audit. A titre d'exemple, la commande `npm audit` affiche un rapport des vulnérabilités connues de chaque dépendance d'un projet _node.js_.
 
@@ -51,7 +50,6 @@ La visualisation des dépendances des applications compilées, ou "packagées", 
 
 
 </details>
-<br>
 
 * **Faites attention aux tentatives de [*typosquattage*](https://fr.wikipedia.org/wiki/Typosquattage) et autres techniques malveillantes.** Vérifiez les noms des dépendances, ainsi que de leurs propres dépendances pour éviter des attaques. Ne copiez-collez pas de lignes de commandes depuis des sites inconnus.
 
