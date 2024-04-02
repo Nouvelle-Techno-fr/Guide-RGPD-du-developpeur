@@ -10,7 +10,6 @@
 
 <details>
      <summary> <em> Mise en œuvre de systèmes d'intégration continue </em> </summary>
-<br>
 
 * Les logiciels d'intégration continue permettent d'automatiser les vérifications de code et d'y associer des métriques à chaque modification de code source. Cette pratique vise à détecter les problèmes d'intégration au plus tôt dans le stade de développement comme des modifications à la mise en production.
 
@@ -19,7 +18,6 @@
 * Une attention particulière doit être portée sur la sécurisation de ce type de solution. Veillez notamment à ce que la solution dispose pas d'accès privilégiés au gestionnaire de code source ou aux systèmes les hébergeant.
 
 </details>
-<br>
 
 ## Intégrez les tests dans votre stratégie d’entreprise
 
@@ -43,7 +41,6 @@
 
 <details>
      <summary><em>Les outils de génération de données fictives</em></summary>
-<br>
 
 Lors du développement de votre service, il est toujours préférable d'utiliser des données fictives. A défaut, les environnement des tests doivent faire l’objet des mêmes mesures de sécurité que l’environnement de production.
 
@@ -68,6 +65,5 @@ fake.iban()
 ```
 
 </details>
-<br>
 
 * Si vous avez besoin d’**importer des configurations existantes** depuis la production dans vos scénarios de test, pensez à **anonymiser les données personnelles** qui peuvent être présentes.
