@@ -12,9 +12,8 @@
 
 <details>
      <summary> <em> Quelques exemples d'étude du parcours de la donnée par la CNIL</em> </summary>
-<br>
 
-Les packs de conformité sectoriels sur les [compteurs communicants](https://www.cnil.fr/sites/default/files/typo/document/Pack_de_Conformite_COMPTEURS_COMMUNICANTS.pdf), [les véhicules connectés](https://www.cnil.fr/sites/default/files/atoms/files/pack_vehicules_connectes_web.pdf) et [la silver économie](https://www.cnil.fr/sites/default/files/atoms/files/pack_silver_economie_v4.pdf), ainsi que le [livre blanc sur les assistants vocaux](https://www.cnil.fr/sites/default/files/atoms/files/cnil_livre-blanc-assistants-vocaux.pdf) peuvent vous accompagner dans l'identification des parcours de données de votre produit.
+Les packs de conformité sectoriels sur les [compteurs communicants](https://www.cnil.fr/sites/cnil/files/typo/document/Pack_de_Conformite_COMPTEURS_COMMUNICANTS.pdf), [les véhicules connectés](https://www.cnil.fr/sites/default/files/atoms/files/pack_vehicules_connectes_web.pdf) et [la silver économie](https://www.cnil.fr/sites/default/files/atoms/files/pack_silver_economie_v4.pdf), ainsi que le [livre blanc sur les assistants vocaux](https://www.cnil.fr/sites/default/files/atoms/files/cnil_livre-blanc-assistants-vocaux.pdf) peuvent vous accompagner dans l'identification des parcours de données de votre produit.
 
 Chaque cas d'usage met ainsi en œuvre des parcours distincts pour lesquels la création d'un compte et l'intervention d'un ou plusieurs acteurs externes peuvent être nécessaires.
 
@@ -31,7 +30,7 @@ Ces analyses peuvent vous accompagner dans l'identification des développements 
 
 ## En cas de recours à un prestataire pour l’hébergement
 
-* **Choisir un prestataire garantissant la mise en place de mesures de sécurité et de confidentialité appropriées, et suffisamment transparentes**. La CNIL vous propose des [modèles de clauses de confidentialité](https://www.cnil.fr/sites/default/files/typo/document/Recommandations_pour_les_entreprises_qui_envisagent_de_souscrire_a_des_services_de_Cloud.pdf).
+* **Choisir un prestataire garantissant la mise en place de mesures de sécurité et de confidentialité appropriées, et suffisamment transparentes**. La CNIL vous propose des [modèles de clauses de confidentialité](https://www.cnil.fr/sites/cnil/files/typo/document/Recommandations_pour_les_entreprises_qui_envisagent_de_souscrire_a_des_services_de_Cloud.pdf).
 
 * **S’assurer de connaître la localisation géographique des serveurs qui vont héberger vos données**. Vous pouvez être amené⋅e à effectuer des transferts de données hors de l’Union européenne (UE) et de l’espace économique européen (EEE). Si les données peuvent circuler librement dans l’UE/EEE, les transferts hors de cet espace sont possibles, à condition d’assurer un [niveau de protection des données suffisant et approprié](https://www.cnil.fr/fr/transferer-des-donnees-hors-de-lue). La CNIL fournit sur site une carte permettant de visualiser les [différents niveaux de protection des données des pays dans le monde](https://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde).
 
