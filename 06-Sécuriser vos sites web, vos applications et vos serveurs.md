@@ -8,13 +8,12 @@
 
 * **Rendez l’utilisation de TLS obligatoire** pour toutes les pages de votre site et pour vos applications mobiles.
 
-* **Limitez les ports de communication** strictement nécessaires au bon fonctionnement des applications installées. Si l’accès à un serveur web n’est possible qu’à l’aide du protocole HTTPS, seul le ports 443 de ce serveur, et éventuellement le port 80 afin de rediriger vers le protocole HTTPS, doit être accessible sur Internet. Les autres ports doivent alors être bloqués au niveau du pare-feu.
+* **Limitez les ports de communication** strictement nécessaires au bon fonctionnement des applications installées. Si l’accès à un serveur web n’est possible qu’à l’aide du protocole HTTPS, seul le port 443 de ce serveur, et éventuellement le port 80 afin de rediriger vers le protocole HTTPS, doit être accessible sur Internet. Les autres ports doivent alors être bloqués au niveau du pare-feu.
 
 * **L’ANSSI a publié sur son site des [recommandations spécifiques](https://www.ssi.gouv.fr/entreprise/bonnes-pratiques/)** pour [mettre en œuvre TLS](https://www.ssi.gouv.fr/entreprise/guide/recommandations-de-securite-relatives-a-tls/) ou [pour sécuriser un site web](https://www.ssi.gouv.fr/uploads/2013/05/anssi-guide-recommandations_mise_en_oeuvre_site_web_maitriser_standards_securite_cote_navigateur-v2.0.pdf).
 
 <details>
      <summary> <em> En savoir plus sur la mise en place de TLS</em> </summary>
-<br>
 
 La sécurisation des communications des sites et applications mobiles nécessite d'utiliser le protocole "TLS". La combinaison de ce protocole avec le protocole "HTTP" permet un échange par "HTTPS". Certains algorithmes cryptographiques employés dans TLS, et ses versions précédentes "SSL", sont réputées vulnérables à différentes attaques. Vous pouvez vous faire accompagner dans le choix de ces algorithmes au moyen de **générateurs de configuration TLS**. Celui de [Mozilla](https://ssl-config.mozilla.org/) supporte par exemple de très nombreux serveurs.
 
@@ -28,7 +27,6 @@ Deux exemples de configuration [Apache](annexes/conf_tls_apache.txt) et [Nginx](
 
 <details>
      <summary><em>Voir une implémentation Frontend de vérification de force de mot de passe</em></summary>
-<br>
 
 Dans sa délibération du 10 janvier 2017 portant adoption d'une recommandation relative aux mots de passe, la CNIL spécifie que si le mot de passe n'est pas utilisé en conjonction avec un second facteur, et sans blocage de fréquence ("frequency capping"), un mot de passe devrait être constitué de 12 caractères et comprendre majuscule, minuscule, chiffres et caractères spéciaux.
 
@@ -55,9 +53,8 @@ Cela doit également s'accompagner d'une vérification backend de la force du mo
 
 <details>
      <summary><em>Voir des modalités pratiques de hashage des mots de passe</em></summary>
-<br>
 
-Il ne faut jamais stocker les mots de passe des utilisateurs en clair dans vos bases de données, il faut systématiquement les hasher, avec un sel specifique. En pratique, bcrypt est sans doute la solution la plus simple d'utilisation. Elle utilise un sel aléatoire pour chaque hash et l'inclue dans le hash résultant pour la vérification d'un mot de passe.
+Il ne faut jamais stocker les mots de passe des utilisateurs en clair dans vos bases de données, il faut systématiquement les hasher, avec un sel spécifique. En pratique, bcrypt est sans doute la solution la plus simple d'utilisation. Elle utilise un sel aléatoire pour chaque hash et l'inclue dans le hash résultant pour la vérification d'un mot de passe.
 
 Par exemple en node.js :
 
@@ -85,7 +82,6 @@ bcrypt.compare(passwordAVerifier, hash, function(err, result) {
 
 <details>
      <summary> <em> En savoir plus sur les fonctions de hachage à clé </em> </summary>
-<br>
 
 * Les fonctions de hachage permettent d’assurer **l’intégrité des données**. Elles doivent reposer sur un algorithme **reconnu et sûr**. La famille de fonctions _SHA-2_ (par exemple _SHA-256_ et _SHA-512_) comporte des fonctions de hachage génériques qu’il ne faut pas utiliser directement pour certaines tâches spécifiques.En revanche, elles sont tout à fait acceptables comme fonction de base pour des fonctions de hachage spécialisées. Par exemple, la fonction HMAC utilisée avec SHA-256 ou SHA-512 est adaptée à la signature numérique. 
 
@@ -115,7 +111,7 @@ mot_de_passe_valide = bcrypt.checkpw(mot_de_passe, hache_du_mot_de_passe) #Test 
 
 * **Dans le cas où des cookies sont utilisés pour permettre l’authentification**, il est recommandé :
 
-    * de protéger les cookies contre des lectures via des canaux de non chiffrées, en forcant l’utilisation d’HTTPS via l’[HSTS](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security), ainsi que par l'utilisation des indicateurs `Secure` et `HttpOnly` ;
+    * de protéger les cookies contre des lectures via des canaux de non chiffrées, en forçant l’utilisation d’HTTPS via l’[HSTS](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security), ainsi que par l'utilisation des indicateurs `Secure` et `HttpOnly` ;
     
     * d'utiliser des protections contre des [injections de requêtes illégitimes par rebond](https://www.cert.ssi.gouv.fr/information/CERTA-2008-INF-003) (cross-site request forgery ou CSRF) en utilisant des mesures de protection comme le CSRF Token et l'indicateur `SameOrigin` sur les requêtes. L'indicateur `SameSite` des cookies doit avoir la valeur `Strict` lorsque c'est possible ;
     
@@ -151,7 +147,6 @@ Concevoir les processus d'authentification, de réinitialisation des mots de pas
 
 <details>
      <summary> <em> Choisir et utiliser des outils de détection des vulnérabilités</em> </summary>
-<br>
 
 Les **outils de détection des vulnérabilités**, comme [OpenVAS](https://github.com/greenbone/openvas) et [Metasploit](https://github.com/rapid7/metasploit-framework), permettent d'identifier certaines vulnérabilités connus au sein d'applications. Certaines solutions se spécialisent sur des services particuliers, par exemple [Wordpress](https://github.com/wpscanteam/wpscan) ou [Joomla](https://github.com/rezasp/joomscan).
 
@@ -162,7 +157,6 @@ Il est recommandé de vérifier l'état et la fraicheur des bases de données de
 
 <details>
      <summary> <em> Auditer les ports ouverts en pratique</em> </summary>
-<br>
 
 La commande _netstat_ permet de lister les ports TCP ou UDP ouverts sur un serveur. Sur l'exemple suivant, les ports standards HTTP, HTTPS et SSH d'un serveur sont ouverts vers l'extérieur, un serveur de base de données (MariaDB) est en écoute local et des tentatives connexions sont en cours sur les ports SSH et HTTPS :
 
@@ -201,7 +195,6 @@ Nmap done: 1 IP address (1 host up) scanned in 4.99 seconds
 Il nécessite donc une attention particulière, comme l'utilisation d'une authentification forte et/ou d'un filtrage par IP.
 
 </details>
-<br>
 
 * **Protégez les bases de données que vous rendez accessibles sur Internet**, au moins en restreignant au maximum les accès (par exemple par filtrage IP) et en changeant le mot de passe par défaut du compte administrateur.
 
