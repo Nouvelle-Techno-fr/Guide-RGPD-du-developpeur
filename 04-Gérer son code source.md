@@ -10,14 +10,12 @@
 
 <details>
      <summary><em> Mise en place d'une authentification forte sur les services de gestion de développement de logiciels </em></summary>
-<br>
 
 * Le logiciel libre [GitLab](https://docs.gitlab.com/) offre des fonctionnalités de [double authentification](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) et [d'accès par jeton d'authentification avec gestion des droits](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html). Ces deux fonctionnalités se retrouvent également sur des services web comme [GitHub](https://help.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication).
 
 *  **Pensez à sauvegarder vos codes de récupération dans un endroit sûr**, par exemple un gestionnaire de mot de passe ou conservez leur impression dans un endroit sécurisé.
 
 </details>
-<br>
 
 * Par ailleurs, attribuez aux utilisateurs de votre gestionnaire de code source des *niveaux d’accès* à votre projet et définissez pour chacun des niveaux les **permissions** correspondantes (par exemple, un niveau « invité » avec des droits limités en lecture, un niveau « équipe de développement » avec des droits en écriture, etc.).
 
