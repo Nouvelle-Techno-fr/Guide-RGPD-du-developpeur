@@ -24,7 +24,6 @@
 
 <details>
      <summary><em>Exemple d'implémentation de purge automatique en MySQL</em></summary>
-<br>
 
 En MySQL, l'_event scheduler_ permet de supprimer les données périmées automatiquement. Par exemple :
 
@@ -42,7 +41,6 @@ CREATE EVENT e_mensuel
 Son pré-requis est d'associer une date d'inscription à chacune des lignes de la base de données afin de permettre le calcul de sa date de péremption.
 
 </details>
-<br>
 
 * Afin de garantir un effacement complet, effacez **physiquement** toutes les données qui ne sont plus nécessaires grâce à des outils spécialisés ou en détruisant les supports physiques.
 
