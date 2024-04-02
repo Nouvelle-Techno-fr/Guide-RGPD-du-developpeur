@@ -22,7 +22,6 @@
 
 <details>
      <summary> <em>La gestion de clés SSH en pratique</em></summary>
-<br>
 
 Si vous devez vous connecter à un service en ligne ou à l'un de vos serveurs, faites le choix d'algorithme asymétriques, ECDSA ou bien RSA.
 
@@ -44,7 +43,6 @@ xclip -sel clip < ~/.ssh/key.pub
 La clé privée ne doit jamais être envoyée ou partagée avec un tiers. Pour plus d'info sur les mesures organisationnelles à mettre en place pour une bonne gestion des clés, voir la norme [NISTIR 7966](https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.7966.pdf).
 
 </details>
-<br>
 
 * Favorisez une **authentification forte** sur les services utilisés par l'équipe de développement.
 
