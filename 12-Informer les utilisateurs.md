@@ -68,7 +68,6 @@
 
 <details>
      <summary> <em> Forme et contenu de l'information à délivrer </em> </summary>
-<br>
 
 * L’information des personnes est fondamentale car **elle permet aux personnes de comprendre l’objectif du traitement et l’utilisation de leurs données**. La transparence ainsi offerte sur le traitement est l’un des principaux vecteurs pour **instaurer une relation de confiance** avec les personnes, en leur permettant notamment d’exercer leurs autres droits.
 
