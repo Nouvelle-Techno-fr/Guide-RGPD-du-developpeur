@@ -15,7 +15,6 @@
 
 <details>
      <summary> <em> Les outils de documentation intégrés au code </em> </summary>
-<br>
 
 Certains systèmes de documentation utilisent le **code lui-même** comme support. La documentation est ainsi écrite directement dans les commentaires du programme. 
 
@@ -110,7 +109,6 @@ help(Example.do_something)
 
 <details>
      <summary> <em> Les outils de mesure de la qualité d'un code </em> </summary>
-<br>
 
 Certains langages de programmation disposent d'un **style de programmation standard**, par exemple [PEP8](https://www.python.org/dev/peps/pep-0008/) pour le langage Python. Des outils automatiques peuvent contrôler le respect de ces styles, par exemple [pep8.py](https://pep8.readthedocs.io/en/release-1.7.x/intro.html) pour la PEP8. Pour les langages ne disposant pas de styles de programmation standard, différents styles ont été créés, avec des outils automatiques permettant de les vérifier, par exemple [SonarQube](https://github.com/SonarSource/sonarqube) ou [checkstyle](https://checkstyle.org/) pour Java.
 
