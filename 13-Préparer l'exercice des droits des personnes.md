@@ -40,7 +40,6 @@
 
 <details>
      <summary> <em>L'exercice de droit en pratique</em> </summary>
-<br>
 
 * Lorsqu’une personne souhaite exercer un droit, elle doit pouvoir **savoir vers qui s’adresser** de façon simple. Les informations de contact doivent être **facilement accessibles** et être localisées à des endroits paraissant logiques, par exemple dans le compte utilisateur, dans des informations contextuelles, les politiques de confidentialité, les politiques de vie privée, une FAQ, etc.
 
@@ -51,7 +50,7 @@
 * Tout au long du processus d’exercice des droits, il est important de veiller à ce que la personne soit informée de l’évolution de sa demande. Lui faire des retours régulièrement, pour **attester de la bonne réception** de sa demande ou encore pour lui faire des **retours sur les décisions prises** suite à celle-ci, dans un **format accessible** et correspondant à celui avec lequel elle vous a contacté est donc nécessaire.
 
 * Afin d’assurer à la personne une bonne continuité dans sa démarche d’exercice de droit, ou en cas de contestation de sa part de la décision que vous prenez auprès d’une autorité de protection, il est recommandé de permettre à la personne de pouvoir garder facilement une **trace de sa démarche**. Un système d’impression de demandes, d’archivage ou de téléchargements des échanges, etc. peuvent ainsi être mis en place. 
-*
+
 </details>
 
 ## En conclusion
